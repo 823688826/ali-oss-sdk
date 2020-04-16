@@ -1,0 +1,24 @@
+{
+    "name": "prince/oss_sdk_php",
+    "description": "Ali oss_sdk",
+    "authors": [
+        {
+            "name": "wangzifei",
+            "email": "823688826@qq.com"
+        }
+    ],
+    "require": {
+        "aliyuncs/oss-sdk-php": "^2.3",
+        "league/flysystem": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {"PRINCE\\ALIOSS\\": "src"}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PRINCE\\ALIOSS\\Providers\\AliOssServiceProvider"
+            ]
+        }
+    }
+}
