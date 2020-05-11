@@ -9,11 +9,11 @@
         
     'images'=>[
         'driver' => 'alioss',
-        'key' => "LTAI4FskYbP8pKVC1WXZ4Cs8",
-        "secret" => "8yHuFoyPsnnL4mIXISyh9RMJEFLacq",
-        "endpoint" => "http://oss-cn-shanghai.aliyuncs.com",
+        'key' => "key",
+        "secret" => "secret",
+        "endpoint" => "endpoint",
         "isCName" => false,
         "securityToken" => NULL,
         "requestProxy" => NULL,
-        "bucket" => "parkinglangge"
+        "bucket" => "bucket"
     ]
